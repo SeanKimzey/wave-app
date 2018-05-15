@@ -12,13 +12,16 @@ var HomePage = {
       container: "#waveform",
       waveColor: "#42f462",
       progressColor: "purple",
-      splitChannels: true,
-      height: 35
+      splitChannels: true
+      // height: 35
       // barWidth: 50
     });
-
     wavesurfer.load("a.mp3");
+    console.log("hey");
+
+    return wavesurfer;
   },
+
   methods: {},
   computed: {}
 };
